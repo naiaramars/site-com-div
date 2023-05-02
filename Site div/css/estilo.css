@@ -1,0 +1,85 @@
+body{
+background-image: url(/Img/fundodenoiva.png)
+}
+
+.main{
+margin: auto;
+font-size: 20px;
+width: 70%;
+text-align: justify;
+background-color: rgb(241, 199, 199)
+}
+
+.header{
+padding: 10px;
+text-align: center;
+}
+
+.header h1{
+text-transform: uppercase;
+border-bottom: 1px solid white;
+}
+
+.banner img{
+    width: 100%;
+    height: 650px;
+}
+
+.content{
+    display:flex
+}
+
+.box{
+    padding: 15px;
+}
+
+.box h2{
+    border-bottom: 2px solid white;
+}
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(240, 172, 184);
+    color: white
+}
+
+.nav li{
+float: left;
+list-style-type: none;
+padding: 10px;
+margin: 0px;
+height: 20px;
+}
+
+.nav {
+    border-top: 5px solid white;
+    text-decoration:none;
+    
+}
+ ul, li{
+    text-align: center;
+ }
+
+@media screen and (max-width: 1024px){
+    .main{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: none;
+    }
+
+    .main{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .content{
+        flex-direction: column;
+    }
+}
